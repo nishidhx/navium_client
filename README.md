@@ -9,7 +9,9 @@ Navium
 
 ![chat Interface](./assets/2.png)
 
+
 Setup
+
 - ```git clone https://github.com/yourusername/navium.git``` for HTTPS web url.
 - ```git clone git@github.com:yourusername/navium.git``` for SSH key.
 - ```cp .env.example .env```
@@ -21,6 +23,7 @@ Setup
 - ```bun build``` for production purposes.
 
 Features
+
 - **Authentication**: Secure user sign-in and sign-up with email/password and OAuth (Google, GitHub).
 - **Real-time Messaging**: Chat with other users with a responsive chat interface.
 - **User Profiles**: Manage your profile information including personal details and preferences.
