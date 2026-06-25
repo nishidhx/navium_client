@@ -16,10 +16,10 @@ export const ChatInterface = ({
 }: {
     className?: string
 }) => {
-  const [message, setMessage] = useState<string>("");
+  const [message, setMessage] = useState<String>("");
 
   return (
-    <div className={cn("flex flex-col h-150 w-150 rounded-lg px-4 py-2 bg-gray-500/10 border border-gray-500/30", className)}>
+    <div className={cn("flex flex-col h-150 w-150 rounded-lg text-white  px-4 py-2 bg-gray-500/10 border border-gray-500/30")}>
       <div className="w-full flex gap-2 items-center p-2">
         <div>
           <LeftBackArrow className="size-4" />
