@@ -1,5 +1,5 @@
 "use client";
-import { EnterIcon, LeftBackArrow, RightArrow } from "@/icons/arrows";
+import { EnterIcon, LeftBackArrow } from "@/icons/arrows";
 import { useState } from "react";
 import {
   Avatar,
@@ -12,11 +12,11 @@ import { ChatBox } from "./chatBox";
 import { cn } from "@/utils/clsx";
 
 export const ChatInterface = ({
-    className
+  className
 }: {
-    className?: string
+  className?: string
 }) => {
-  const [message, setMessage] = useState<String>("");
+  const [message, setMessage] = useState<string>("");
 
   return (
     <div className={cn("flex flex-col h-150 w-150 rounded-lg text-white  px-4 py-2 bg-gray-500/10 border border-gray-500/30")}>
@@ -39,7 +39,7 @@ export const ChatInterface = ({
       <div className="border-b border-gray-500/10"></div>
 
       <div className="w-full h-full px-2 py-4 flex gap-2">
-        <AvatarIcon/>
+        <AvatarIcon href=""/>
         <div><ChatBox message="Hii How are you" /></div>
       </div>
       <section className="w-full reply mb-2 gap-2">
